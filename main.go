@@ -10,7 +10,7 @@ import (
 func main() {
 	var option string
 
-	flag.StringVar(&option, "type", "s", "Especifica si quieres ejecutar el servidor (s) o el cliente (c)") // Por defecto ejecutamos el servidor
+	flag.StringVar(&option, "type", "s", "Defines if the program will be executed as a server (s) or a client (c).")
 
 	flag.Parse()
 
