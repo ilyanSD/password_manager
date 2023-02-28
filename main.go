@@ -19,6 +19,6 @@ func main() {
 	} else if option == "c" {
 		client.Client()
 	} else {
-		fmt.Println("Opcion no valida! Prueba a utilizar '-type s' para ejecutar el servidor o '-type c' para ejecutar el cliente.")
+		fmt.Println("Flag -type must be either 's' or 'c'.")
 	}
 }
