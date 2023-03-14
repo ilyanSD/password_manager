@@ -5,6 +5,7 @@ CREATE TABLE `usuarios` (
 	`id` int NOT NULL AUTO_INCREMENT,
 	`username` varchar(255) DEFAULT NULL,
 	`password` varchar(255) DEFAULT NULL,
+	`sal` varchar(255) DEFAULT NULL,
 	PRIMARY KEY (`id`),
 	UNIQUE KEY `username_UNIQUE` (`username`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;s
